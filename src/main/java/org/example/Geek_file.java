@@ -11,7 +11,7 @@ public class Geek_file {
     @GetMapping("/")
     public String home() {
         String str = "<html><body><font color=\"green\">"
-                + "<h1>WELCOME To GeeksForGeeks Ananth</h1>"
+                + "<h1>WELCOME To GeeksForGeeks Anand</h1>"
                 + "</font></body></html>";
         return str;
     }
