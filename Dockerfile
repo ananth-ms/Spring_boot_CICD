@@ -11,7 +11,7 @@ COPY target/maven_build-1.0-SNAPSHOT.jar app.jar
 COPY src/main/resources/application.yml /app/config/application.yml
 
 # Expose the Spring Boot port
-EXPOSE 8086
+EXPOSE 8085
 
 # Run the application
 ENTRYPOINT ["java", "-jar", "/app/app.jar", "--spring.config.location=file:/app/config/application.yml"]
